@@ -1,0 +1,73 @@
+@import "../app.component.scss";
+
+
+.main-body-contact-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .header-title{
+        font-size: 5em;
+    }
+
+    .contact-image {
+        width: 700px;
+        height: auto;
+        border-radius: 20px;
+    }
+}
+.warning-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #333333;
+    margin-top: 20px;
+    .warning-text {
+        padding: 24px 31px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+form {
+    margin-top: 75px;
+
+    min-width: 700px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    .two-half-input{
+        width:  100%;
+        display: flex;
+        align-items: row;
+        justify-content: space-between;
+        input {
+            height: 50px;
+            background-color: #F2F2F2;
+            border: 0px !important;
+            border-radius: 10px;
+            padding: 0px 13px;
+            width: 45%;
+        }
+    }
+
+    textarea{
+        margin-top: 20px;
+        background-color: #F2F2F2;
+        border: 0px !important;
+        border-radius: 10px;
+        padding: 20px 13px;
+        height: 8em;
+    }
+
+    button {
+        height: 50px;
+        color: #F2F2F2;
+        background-color: $main-color;
+        border-radius: 10px;
+        border: 0px;
+    }
+}

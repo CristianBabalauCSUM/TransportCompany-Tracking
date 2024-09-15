@@ -1,6 +1,5 @@
-@import "../styles.scss";
 
-
+$un-blue : #3993DD;
 $main-color : #310D20;
 $main-color-low-transp: #310d20a1;
 
@@ -13,7 +12,7 @@ main{
         background-repeat: no-repeat;
         background-size:cover;
         background-position-y:bottom;
-        background-image: linear-gradient(0deg, $main-color-low-transp, $main-color-low-transp), url('../assets/img/home/top-landing.png');
+        background-image: linear-gradient(0deg, $main-color-low-transp, $main-color-low-transp), url('/assets/img/home/top-landing.png');
         display: flex;
         align-items: center;
         justify-content: center;
@@ -286,3 +285,4 @@ main{
         }
     }
  }
+ 

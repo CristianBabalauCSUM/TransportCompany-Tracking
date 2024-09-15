@@ -1,0 +1,35 @@
+<header class = "inter-regular">
+    <div class="logo-regular-desktop">
+        <img src="/assets/icons/sparrow-logo.png" alt="">
+
+    </div>
+    <nav class = "inter-bold computer-nav-menu">
+        <a href="">Features</a>
+        <a href="">Home</a>
+        <a routerLink="/about-us">About Us</a>
+        <a href="/contact-page">Contact Us</a>
+        <a href="">Track Parcel</a>
+    </nav>
+    
+    <div class="menu-icon-phone" (click)="openMenuPhone($event)">
+        <div class="sub-div">
+            <input type="radio" name="aa"  id="menu">
+            <input type="radio"  name="aa" id="menu1">
+            <label for="menu" class="label-1"></label>
+            <label for="menu1" class="label-2"></label>	
+    
+        <div class="all-line">
+            <div class="div-1 icon"></div>
+            <div class="div-2 icon"></div>
+            <div class="div-3 icon"></div>		
+        </div>	
+    </div>				
+</div>	
+</header>
+<nav class = "phone-menu phone-menu-hidden inter-regular">
+    <a href="">Features</a>
+    <a href="">Home</a>
+    <a routerLink="/about-us">About Us</a>
+    <a href="">Contact Us</a>
+    <a href="">Track Parcel</a>
+</nav>
